@@ -1,0 +1,31 @@
+{
+    "name": "abelwu/mailerqueue",
+
+    "type": "yii2-extension",
+
+    "description": "The Async mailer for the Yii framework",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/abel911/abelwu/issues",
+        "forum": "http://www.mr-jason.com",
+        "source": "https://github.com/abel911/abelwu"
+    },
+    "authors": [
+        {
+            "name": "Abel",
+            "email": "abel911@163.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "abelwu\\mailerqueue\\": "src/"
+        }
+    }
+}
